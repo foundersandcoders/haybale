@@ -1,0 +1,26 @@
+{
+  "name": "haybale",
+  "version": "1.0.0",
+  "description": "decorate a model constructor function with the methods of a db adapter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foundersandcoders/haybale.git"
+  },
+  "keywords": [
+    "decorate",
+    "db",
+    "adapter",
+    "crud",
+    "model"
+  ],
+  "author": "William Fisher, Besart Shyti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foundersandcoders/haybale/issues"
+  },
+  "homepage": "https://github.com/foundersandcoders/haybale"
+}
