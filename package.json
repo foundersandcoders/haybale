@@ -1,7 +1,7 @@
 {
   "name": "haybale",
   "version": "1.0.0",
-  "description": "decorate a model constructor function with the methods of a db adapter",
+  "description": "decorate a model prototype with the methods of a db adapter",
   "main": "index.js",
   "scripts": {
     "test": "tape ./test/*.test.js | faucet",
@@ -35,5 +35,8 @@
     "jshint": "^2.7.0",
     "pre-commit": "^1.0.6",
     "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "torf": "^1.0.6"
   }
 }

@@ -1,15 +1,17 @@
 # haybale
 
-decorate an object constructor function with the methods of an object
+decorate an object prototype with the methods of an object
 
 
 **use**
 ```js
 var decorate = require("haybale");
 
-// constructor function for model
-function Model () {
 
+// model prototype
+var model = {
+
+  name: "hello"
 
 }
 
@@ -24,9 +26,7 @@ var obj = {
 };
 
 
-decorate(Model, obj);
-
-var model = new Model();
+decorate(model, obj);
 
 model.run();
 
@@ -42,6 +42,6 @@ haybale exposes a single function
 
 **_params_**
 
-```fn```: the constructor function to be decorated
+```model```: the object prototype to be decorated
 
-```obj```: the object with which to decorate the fn
+```obj```: the object with which to decorate the model
