@@ -1,6 +1,6 @@
 {
   "name": "haybale",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "decorate a model prototype with the methods of a db adapter",
   "main": "index.js",
   "scripts": {
